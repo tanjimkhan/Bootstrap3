@@ -1,0 +1,324 @@
+
+body{
+	font-family: 'Roboto Slab', serif;
+
+}
+
+h1{
+   color: #fff;
+   font-size: 6vw;
+}
+
+h2{
+  color: #fff;
+  font-size: 30px;
+}
+
+h3{
+    
+    
+}
+
+h4{
+	color: #ffff;
+	font-size: 22px;
+}
+
+h6{
+	color: #fff;
+	font-size: 18px;
+
+}
+
+p{
+    color: #161616;
+	font-size: 18px;
+}
+
+.btn{
+
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+.no-padding{
+	padding: 0px;
+}
+
+.btn-one{
+	background-color: #fff;
+	color: #612316;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 2%;
+	border: none;
+}
+.btn-one:hover{
+	transition: 0.4s ease;
+	background-color: #612316;
+	color: #fff;
+}
+/*Theme css*/
+
+/*header section start*/
+
+header{
+
+}
+
+.nav-head{
+	background-color: #edeff1!important;
+	padding: 35px 0px;
+}
+
+.nav-item{
+	margin: 0px 5px;
+}
+
+
+.nav-link{
+	color: #161616!important;
+}
+
+.nav-link:hover {
+
+}
+
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	color: #ffff!important;
+	border-radius: 22px;
+	padding: 10px 20px;
+}
+
+.navbar-toggler{
+	background-color:  #dd4b2b;
+}
+
+
+/*header section End*/
+
+
+/*hero section start*/
+
+.hero{
+	background: url(../img/banner.jpg)top fixed no-repeat;
+   
+	background-size: cover;
+  
+ }
+
+ .hero-tittle{
+
+ 	text-align: center;
+	padding-top: 15%;
+ 	padding-bottom: 25%;
+	
+ }
+
+ .food-item{
+ 	text-align: center;
+    margin-top: 2%;
+ 	
+ }
+
+/*hero section end*/
+
+
+
+/* bg section start*/
+
+
+
+.bg{
+	background-color: #EDEFF1;
+}
+
+.title_1{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+.title_2{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+
+.title_3{
+	padding-top: 15%;
+ 	padding-bottom: 2%;
+}
+
+
+
+
+.btn-two{
+	background-color: #fff;
+	color: #612316;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	margin: 10% auto 5%;
+	border: none;
+}
+
+.btn-two:hover{
+	transition: 0.4s ease;
+	background-color: #612316;
+	color: #fff;
+}
+
+
+
+/* bg section end*/
+
+
+
+ /*contact-us section start*/
+
+.contact-us{
+	background: url(../img/img2.jpg)no-repeat;
+	background-size: cover;
+}
+
+.form-control{
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	border-radius: 26px;
+	padding: 19px;
+	background: transparent;
+	position: relative;
+}
+
+.btn-three{
+	background: #fff;
+	padding: 10px 71px;
+	border: none;
+	border-radius: 26px;
+	color: darkred;
+	position: absolute;
+	top: 60%;
+	right: 0;
+}
+
+.btn-three:hover{
+	transition: 0.4s ease;
+	background-color: #612316;
+	color: #fff;
+}
+
+input::placeholder{
+	color: #fff!important;
+}
+ /*contact-us section end*/
+
+
+
+
+/*view section start*/
+.btn-four{
+	background-color: #DB4B2D;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	border: none;
+}
+
+.btn-four:hover{
+	transition: 0.4s ease;
+	background-color: aquamarine;
+	color: #DB4B2D;
+}
+
+.btn-five{
+	background-color: #4D546E;
+	color: #fff;
+	padding: 11px 40px;
+	border-radius: 20px;
+	display: block;
+	border: none;
+}
+.btn-five:hover{
+	transition: 0.4s ease;
+	background-color:aquamarine;
+	color:  #4D546E;
+}
+.head{
+   margin-top: 8%;
+}
+
+.tell{
+	margin-top: 10%;
+}
+
+.tell_img{
+	margin-top: 4%;
+}
+
+/*view section end*/
+
+
+
+/*placerat_info section start*/
+.placerat_info{
+	background-color: #D75D0E;
+}
+/*placerat_info section end*/
+
+
+
+/*footer section start*/
+.footer{
+	background: url(../img/img1.jpg)no-repeat;
+	background-size: cover;
+	padding: 10%;
+}
+
+.text{
+	color: #fff;
+	text-align: center;
+}
+/*footer section end*/
+
+
+
+
+ /*Mobile Device*/
+@media (min-width: 0px) and (max-width: 500px){
+
+}
+
+/*Small Device*/
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+}
+
+/*Medium Device*/
+
+@media (min-width: 768.01px) and (max-width: 1140px){
+
+}
+
+/*Large Device*/
+
+@media (min-width: 1200.01px){
+
+}
